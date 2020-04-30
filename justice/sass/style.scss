@@ -178,6 +178,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	padding: 20px 0;
 	z-index: 1001;
 	@include transition(.3s);
+    display: none;
 	
 	@media screen and (max-width: $screen-sm) {
 		padding: 20px 0;
@@ -744,7 +745,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	.sub {
 		position: relative;
 		padding-bottom: 40px;
-		font-size: 18px;
+		font-size: 20px;
 		color: #757575;
 		&:after {
 			bottom: 0;
@@ -941,7 +942,7 @@ form {
 			display: block;
 		}
 	}
-}
+} 
 
 
 // off canvas
@@ -949,7 +950,7 @@ form {
 	position: absolute;
 	position: fixed;
 	z-index: 1901;
-	width: 270px;
+	width: 0px;
 	background: lighten($brand-black, 0%);
 	top: 0;
 	right: 0;
@@ -961,7 +962,7 @@ form {
 	@include translateX(270px);
 	@include transition(.5s);
 	@media screen and (max-width: $screen-sm) {
-		display: block;
+		
 	}
 	.offcanvas & {
 		@include translateX(0px);
@@ -1150,7 +1151,8 @@ form {
   z-index: 2001;
   border-bottom: none!important;
   @media screen and (max-width: $screen-sm) {
-  	display: block;
+  	display: none;
+      
   }
 }
 

@@ -13,7 +13,7 @@
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.8;
   color: #777;
   background: #fff;
@@ -659,7 +659,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .heading .sub {
   position: relative;
   padding-bottom: 40px;
-  font-size: 18px;
+  font-size: 20px;
   color: #757575;
 }
 .heading .sub:after {
@@ -1000,6 +1000,7 @@ form label {
   height: 25px;
   cursor: pointer;
   text-decoration: none;
+    display: none;
 }
 .gtco-nav-toggle.active i::before, .gtco-nav-toggle.active i::after {
   background: #444;
@@ -1028,6 +1029,7 @@ form label {
   position: absolute;
   left: 0;
   transition: all .2s ease-out;
+    display: none;
 }
 .gtco-nav-toggle.gtco-nav-white > i {
   color: #fff;
