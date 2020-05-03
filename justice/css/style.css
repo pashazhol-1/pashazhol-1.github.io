@@ -59,6 +59,7 @@ a:hover, a:active, a:focus {
 
 p {
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 
@@ -68,20 +69,29 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 400;
   margin: 0 0 30px 0;
 }
-
+h1{
+  font-family: 'Play', sans-serif;
+}
+h2{
+  color: #9601b1;
+}
+.video_youtube{
+  display: flex;
+  justify-content: center;
+}
 ::-webkit-selection {
   color: #fff;
-  background: #7ED321;
+  background: #9601b1;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #7ED321;
+  background: #9601b1;
 }
 
 ::selection {
   color: #fff;
-  background: #7ED321;
+  background: #9601b1;
 }
 
 .gtco-nav {
@@ -506,7 +516,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #gtco-about .img-shadow {
   position: relative;
-  background: #7ED321;
+  background: #9600b1;
   width: 100%;
   float: left;
 }
@@ -593,7 +603,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-our-team .gtco-team-reverse .img-shadow,
 #gtco-our-team .gtco-team .img-shadow {
   position: relative;
-  background: #7ED321;
+  background: #9600b1;
   width: 100%;
   float: left;
   margin-bottom: 30px;
@@ -659,8 +669,9 @@ h1, h2, h3, h4, h5, h6, figure {
 .heading .sub {
   position: relative;
   padding-bottom: 40px;
-  font-size: 20px;
-  color: #757575;
+  font-size: 24px;
+  color: #000;
+  font-family: 'Neucha', cursive;
 }
 .heading .sub:after {
   bottom: 0;
@@ -670,11 +681,11 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   width: 72px;
   height: 2px;
-  background: #7ED321;
+  background: #9600b1;
 }
 
 .heading-colored {
-  color: #7ED321;
+  color: #9600b1;
 }
 
 .read-more i {
