@@ -37,6 +37,11 @@ iframe{
         height: 200px;
 }
 }
+
+.two{
+    margin-top: 300px;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -588,6 +593,13 @@ h2{
   width: 100%;
   float: left;
 }
+#gtco-about .img-shadow .two {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  float: left;
+}
+
 #gtco-about .img-shadow img {
   position: relative;
   top: -20px;
@@ -863,11 +875,13 @@ form label {
 }
 #gtco-header .display-tc h1,
 .gtco-cover .display-tc h1 {
+    width: 80%;
   margin-bottom: 30px;
   font-size: 59px;
   line-height: 1.5;
   font-weight: 700;
     font-family: 'Comfortaa', cursive;
+    text-align: start;
 }
 @media screen and (max-width: 768px) {
   #gtco-header .display-tc h1,
