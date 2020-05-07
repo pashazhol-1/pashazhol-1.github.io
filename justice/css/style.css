@@ -41,6 +41,13 @@ iframe{
 .two{
     margin-top: 300px;
 }
+.logo_ozero{
+   position: absolute;
+    width: 10%;
+    height: auto;
+    right: 30px;
+    top: 15px;
+}
 
 #page {
   position: relative;
