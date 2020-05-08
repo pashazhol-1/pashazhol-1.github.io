@@ -41,6 +41,19 @@ iframe{
 .two{
     margin-top: 300px;
 }
+.logo_ozero{
+   position: absolute;
+    width: 10%;
+    height: auto;
+    right: 30px;
+    top: 15px;
+}
+.sponsor_img{
+    display: block;
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+}
 
 #page {
   position: relative;
@@ -114,6 +127,7 @@ h2{
 .facebook__text{
     font-weight: 700;
     font-size: 25px;
+    text-align: center;
 }
 .face{
     width: 80px;
