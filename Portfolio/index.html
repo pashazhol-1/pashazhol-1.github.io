@@ -27,7 +27,7 @@
 					<a class="nav__link" href="#">Работы</a>
 					<a class="nav__link" href="#">Обо мне</a>
 					<a class="nav__link" href="#">Контакты</a>
-					<a class="nav__link nav__link--btn" href="#">Нанять меня</a>
+					<a class="nav__link nav__link--btn" href="#" data-modal="#modal_hire_me">Нанять меня</a>
 				</div>
 
 			</div>
@@ -55,8 +55,8 @@
 							<img src="img/vk.png" alt="">
 						</a>
 					</div>
-						<a href="#" class="btn btn--hire">Нанять меня</a>
-						<button type="buttton" class="btn btn--hire">Моё резюме</button>
+						<a href="#" class="btn btn--hire" data-modal="#modal_hire_me">Нанять меня</a>
+						<button type="buttton" class="btn btn--hire" data-modal="#modal_resume">Моё резюме</button>
 
 				</div>
 					
@@ -175,8 +175,8 @@
 					Любовь к компьютерам и всему, что с ними связано, проявляется и в свободное время. На ряду с художественной литературой нравится читать книги по программированию. Лёгкая энергичная музыка помогает мне настроиться на продуктивную работу.
 					Владею английским на уровне читаю/пишу, совершенствую разговорный.
 					Быстро реагирую в изменяющихся условиях и умею решать задачи. Моё жизненное кредо – постоянно совершенствоваться в своей деятельности и не останавливаться на достигнутом.</div>
-					<a href="#" class="btn">Нанять меня</a>
-						<button type="buttton" class="btn">Мое резюме</button>
+					<a href="#" class="btn" data-modal="#modal_hire_me">Нанять меня</a>
+						<button type="buttton" class="btn" data-modal="#modal_resume">Мое резюме</button>
 				</div>
 			</div>
 			</div>
@@ -222,16 +222,16 @@
 	                <a href="#" class="footer__nav-link">Работы</a>
 	                 <a href="#" class="footer__nav-link">Обо мне</a>
 	                 <a href="#" class="footer__nav-link">Контакты</a>
-	                 <a href="" class="footer__nav-link footer__nav-link--btn">Нанять меня</a>
+	                 <a href="" class="footer__nav-link footer__nav-link--btn" data-modal="#modal_hire_me">Нанять меня</a>
 	            </nav>
 	        </div>
 	    </div>
 	</footer>
 	
 	<!-- Modal -->
-	<div class="modal" style="display: none">
+	<div class="modal" id="modal_resume">
 	    <div class="modal__dialog">
-	        <button type="button" class="modal_close">
+	        <button type="button" class="modal_close" data-close>
 	            <img src="../Portfolio/img/signs.svg" alt="Close">
 	        </button>
 	        <div class="modal__content">
@@ -245,16 +245,16 @@
 	                <img src="../Portfolio/img/Павел Жоль Иванович (1)_page-0002.jpg" alt="" style="width:100%">
 	            </div>
 	            <div class="text-center">
-	            <a class="nav__link nav__link--btn" href="#">Нанять меня</a>
+	            <a class="nav__link nav__link--btn" href="#" data-modal="#modal_hire_me">Нанять меня</a>
 	            
 	            </div>
 	        </div>
 	    </div>
 	</div>
 	
-		<div class="modal" style= "display: none">
+		<div class="modal" id=modal_hire_me>
 	    <div class="modal__dialog modal__dialog--sm">
-	        <button type="button" class="modal_close">
+	        <button type="button" class="modal_close" data-close>
 	            <img src="../Portfolio/img/signs.svg" alt="Close">
 	        </button>
 	        
