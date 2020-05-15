@@ -107,7 +107,7 @@ h1{
   font-family: 'Play', sans-serif;
 }
 h2{
-  color: #9601b1;
+  color: #101dbf;
     font-family: 'Comfortaa', cursive;
 }
 .video_youtube{
@@ -603,7 +603,7 @@ h2{
 
 #gtco-about .img-shadow {
   position: relative;
-  background: #9600b1;
+  background: #101dbf;
   width: 100%;
   float: left;
 }
@@ -698,7 +698,7 @@ h2{
 #gtco-our-team .gtco-team-reverse .img-shadow,
 #gtco-our-team .gtco-team .img-shadow {
   position: relative;
-  background: #9600b1;
+  background: #101dbf;
   width: 100%;
   float: left;
   margin-bottom: 30px;
@@ -776,11 +776,11 @@ h2{
   position: absolute;
   width: 72px;
   height: 2px;
-  background: #9600b1;
+  background: #101dbf;
 }
 
 .heading-colored {
-  color: #9600b1;
+  color: #101dbf;
     font-family: 'Comfortaa', cursive;
 }
 
