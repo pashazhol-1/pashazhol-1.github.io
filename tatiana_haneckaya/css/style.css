@@ -889,11 +889,12 @@ form label {
 }
 #gtco-header .display-tc h1,
 .gtco-cover .display-tc h1 {
-    width: 80%;
-  margin-bottom: 30px;
-  font-size: 59px;
-  line-height: 1.5;
-  font-weight: 700;
+   width: 100%;
+    margin-left: 0;
+    margin-top: 140px;
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 700;
     font-family: 'Comfortaa', cursive;
     text-align: start;
 }
