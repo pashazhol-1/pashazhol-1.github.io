@@ -1,0 +1,254 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    max-width: 1920px;
+    width: 100%;
+    font-size: 15px;
+    color: #000;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+
+    padding: 0;
+}
+.container{
+    max-width: 910px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    background:#EEEFF1;
+    padding-top: 57px;
+
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__item{
+    margin-right: 42px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: 26px;
+}
+.nav__item:last-child{
+    margin-right: 0px;
+    
+}
+.main{
+    box-sizing: border-box;
+   
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background:#EEEFF1;
+}
+.main__img{
+    width: 35%;
+}
+.main__inner{
+    display: flex;
+    margin-left: 80px;
+    justify-content: space-between;
+}
+.main__content{
+    width: 65%;
+    margin-left: 100px;
+    
+}
+.main__title{
+    margin:0;
+    font-weight: 500;
+    font-size: 40px;
+}
+.main__text{
+    margin: 50px 0;
+    font-size: 14px;
+    font-weight: 400;
+    color:#727272;
+    line-height: 26px;
+}
+.button{
+    padding: 15px 30px;
+    background: #34547A;
+    color:#fff;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s all linear;
+
+}
+.button:hover{
+
+    background: #00D5E4;
+}
+.about{
+    padding:100px 0;
+    text-align: center;
+}
+.about__text{
+    margin-top: 50px;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+    color: #727272;
+}
+.stat{
+    background: #34547A;
+    padding: 80px 0;
+    
+}
+.stat__inner{
+    display: flex;
+    justify-content: center;
+}
+.stat__item{
+    display: flex;
+    margin-right: 30px;
+}
+.stat__item:first-child{
+    margin-left: 0;
+}
+.stat__item:last-child{
+    margin-right: 0;
+}
+.stat__content{
+    align-items:center;
+    color:#fff;
+    margin-left: 10px;
+}
+.stat__text{
+    margin-top:7px ;
+}
+.skills{
+    padding: 80px 0;
+}
+.skills__inner{
+    display: flex;
+    margin: 0;
+}
+.skills__list{
+    width: 50%;
+    padding: 40px 0;
+    margin-right: 170px;
+}
+.skills__photo{
+    width: 50%;
+}
+.skills__photo img{
+    width:100%;
+}
+.skills__title{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    margin: 0;
+}
+.skills__item{
+    font-size: 12px;
+    line-height: 26px;
+    color: #727272;
+}
+.skills__lines{
+    display: flex;
+    width: 100%;
+}
+.skills__line{
+    width:70%;
+    height: 2px;
+    background:  #34547A;
+}
+.skills__line-full{
+     width:30%;
+    height: 2px;
+    background:  #C4C4C4;
+}
+.about-work{
+    background: #EEEFF1;
+}
+.video{
+    padding: 40px 0;
+}
+.first__line{
+    display: flex;
+}
+.second__line{
+    display: flex;
+}
+.img__line{
+    background: url(../img/photo1.png);
+    background-size: cover;
+    display: block;
+    width: 480px;
+    height: 480px;
+    cursor: pointer;
+    transition: .5s all linear;
+}
+.img__line:hover{
+    opacity: .7;
+   
+}
+.photo{
+    padding: 20px 0;
+}
+.microsoft{
+    padding: 70px 0;
+}
+.mi__inner{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.mi__inner img{
+    margin-left: 10px;
+}
+.mi__inner:first-child:first-child{
+    margin: 0;
+}
+.contacts{
+    margin-top: 50px;
+}
+.name{
+    padding: 15px 5px;
+    width: 255px;
+    outline: none;
+    border:0;
+    margin-right: 20px;
+}
+.email{
+    padding: 15px 5px;
+    width: 255px;
+    outline: none;
+    border:0;
+}
+.message__text{
+    margin-top: 20px;
+    padding: 15px 5px;
+    width: 535px;
+    height: 200px;
+    outline: none;
+    border:0;
+    margin-bottom: 15px;
+}
+.message__text [placeholder]{
+    margin: 0;
+}
+.footer{
+    background: #34547A;
+    padding: 30px 0;
+}
+.footer__inner{
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__social img{
+    margin-left: 15px;
+}
