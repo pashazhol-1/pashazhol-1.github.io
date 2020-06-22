@@ -27,7 +27,7 @@
             	<nav class="navbar navbar-expand-lg navbar-light">
 					<div class="container box_1620">
 						<!-- Brand and toggle get grouped for better mobile display -->
-						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo-3.png" width="200" height="66" alt=""></a>
+						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo-3.png" width="150" alt=""></a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -40,41 +40,41 @@
 								<li class="nav-item submenu dropdown">
 									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Создание сайтов</a>
 									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="portfolio.html">Разработка интернет-магазина</a>
-										<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Разработка сайта-визитки</a>
-										<li class="nav-item"><a class="nav-link" href="elements.html">Разработка Landing Page</a></li>
+										<li class="nav-item"><a class="nav-link" href="portfolio.html">Ннтернет-магазины</a>
+										<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Landing Page</a>
+										<li class="nav-item"><a class="nav-link" href="elements.html">Сайты-визитки</a></li>
 									</ul>
 								</li> 
 
-								<li class="nav-item"><a class="nav-link" href="service.html">Продвижение сайтов (SEO)</a>
-								<li class="nav-item submenu dropdown">
+								<li class="nav-item"><a class="nav-link" href="service.html">Продвижение сайтов</a>
+								<!--<li class="nav-item submenu dropdown">
 									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Контекстная реклама</a>
 									<ul class="dropdown-menu">
 										<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a>
 										<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Portfolio Details</a>
 										<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
 									</ul>
-								</li> 
+								</li>-->
 								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SMM</a>
-									<ul class="dropdown-menu">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Контекстная реклама</a>
+									<!--<ul class="dropdown-menu">
 										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
 										<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-									</ul>
+									</ul>-->
 								</li> 
 									<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Аудит Сайта</a>
-									<ul class="dropdown-menu">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Поддержка сайтов</a>
+									<!--<ul class="dropdown-menu">
 										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
 										<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-									</ul>
+									</ul>-->
 								</li>
 								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Поддержка сайтов</a>
-									<ul class="dropdown-menu">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Аудит сайтов</a>
+									<!--<ul class="dropdown-menu">
 										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
 										<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-									</ul>
+									</ul>-->
 								</li>
 								<li class="nav-item"><a class="nav-link" href="contact.html">Контакты</a></li>
 								
@@ -89,14 +89,15 @@
 					</div>
             	</nav>
             </div>
+            
         </header>
         <!--================Header Menu Area =================-->
         
         <!--================Home Banner Area =================-->
-        <section class="home_banner_area">
-            <div class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide"><img src="img/main%20(2).jpg" alt="">
+        <section class="home_banner_area" >
+            <div class="swiper-container ">
+				<div class="swiper-wrapper" >
+					<div class="swiper-slide"><img src="img/main%20new.jpg" alt="" id="swiper">
 						<div class="slider_text_inner">
 							<div class="container">
 								<div class="row">
@@ -104,7 +105,15 @@
 										<div class="slider_text">
 											<h2>Продвижение <br />бизнеса в интернете </h2>
 											<p>Создание и продвижение сайтов, интернет магазинов, контекстная реклама, CMM-продвижение.</p>
-											<a class="banner_btn" href="#">Закзать звонок</a>
+											<a class="banner_btn" href="#" id="button">Закзать звонок</a>
+											<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+											<script>
+                                                
+                                                var button = document.getElementById("button");
+                                                button.addEventListener('click', function(){
+                                                swal("Good job!", "You clicked the button!", "success");  
+                                                                        });
+                                            </script>
 											<!--<a class="banner_btn2" href="#">Get Free Quote</a> -->
 										</div>
 									</div>
@@ -112,7 +121,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="swiper-slide"><img src="img/main%20(2).jpg" alt="">
+					<div class="swiper-slide" id="swiper"><img src="img/main%20new.jpg" alt="">
 						<div class="slider_text_inner">
 							<div class="container">
 								<div class="row">
@@ -120,7 +129,7 @@
 										<div class="slider_text">
 											<h2>Продвижение <br />бизнеса в интернете </h2>
 											<p>Создание и продвижение сайтов, интернет магазинов, контекстная реклама, CMM-продвижение.</p>
-											<a class="banner_btn" href="#">Закзать звонок</a>
+											<a class="banner_btn" href="#" id="button">Закзать звонок</a>
 											<!--<a class="banner_btn2" href="#">Get Free Quote</a> -->
 										</div>
 									</div>
@@ -128,7 +137,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="swiper-slide"><img src="img/main%20(2).jpg" alt="">
+					<div class="swiper-slide" id="swiper"><img src="img/main%20new.jpg" alt="">
 						<div class="slider_text_inner">
 							<div class="container">
 								<div class="row">
@@ -136,7 +145,7 @@
 										<div class="slider_text">
 											<h2>Продвижение <br />бизнеса в интернете </h2>
 											<p>Создание и продвижение сайтов, интернет магазинов, контекстная реклама, CMM-продвижение.</p>
-											<a class="banner_btn" href="#">Закзать звонок</a>
+											<a class="banner_btn" href="#" id="button">Закзать звонок</a>
 											<!--<a class="banner_btn2" href="#">Get Free Quote</a> -->
 										</div>
 									</div>
@@ -194,23 +203,33 @@
         <!--================End Mission Area =================-->
         
         <!--================Success Area =================-->
+         <section class="project_know_area p_120">
+        	<div class="container">
+        		<div class="project_know_inner text-center">
+        			<h3>О НАС</h3>
+        			<p style="font-size: 20px;">Динамично развивающаяся компания оказывает в Минске услуги по созданию и, заведомо успешному, продвижению сайтов предприятий и организаций. Для будущих заказчиков у нас имеется ряд разнообразных выгодных предложений, разработанных с учетом индивидуальных нужд клиента и размера имеющегося бюджета. Размах деятельности фирмы довольно обширен: от создания сайтов-визиток и лэндингов до торговых каталогов и сайтов корпораций.</p>
+        			<a class="main_btn" href="#">Читать далее</a>
+        		</div>
+        	</div>
+        </section>
+        
         <section class="success_area">
         	<div class="row m0">
         		<div class="col-lg-6 p0">
         			<div class="mission_text">
-						<h4>Продвижение сайта в поисковых системах Яндекс и Google</h4>
-						<p>Для продаж услуг и товаров недостаточно просто создать интернет-площадку. Необходимо, чтобы на нее заходили потенциальные клиенты. Для этого стоит заказать продвижение сайта в ПС.
-
-                    В нашей команде работают толковые веб-мастера, маркетологи, копирайтеры, редакторы, которые создают действительно «продающие» ресурсы в сети интернет. В своей работе мы используем уникальные методики продвижения, технологии СЕО-продвижения, эффективные инструменты, позволяющие добиваться отличных результатов за сравнительно короткий промежуток времени.</p>
+						<h3>Мы — профессионалы своего дела, способные создать сайт уникальным, а самое главное сделать его удобным и интуитивно понятным для посетителей.
+Не упускайте возможность заказать сайт в Минске в «Seo-digital agency» недорого и качественно – это отличный способ привлечь новую аудиторию и повысить доходы вашей компании!</h3>
+						
 					</div>
         		</div>
         		<div class="col-lg-6 p0">
         			<div class="success_img">
-        				<img src="img/success-1.jpg" alt="">
+        				<img src="img/prodv.jpg" alt="" style="
+    width: 100%";>
         			</div>
         		</div>
         	</div>
-        	<div class="row m0 right_dir">
+        	<!--<div class="row m0 right_dir">
         		<div class="col-lg-6 p0">
         			<div class="success_img">
         				<img src="img/success-2.jpg" alt="">
@@ -222,7 +241,7 @@
 						<p>Занимается созданием сайтов «под ключ», рекламных баннеров, макетов веб-площадок, компьютерной графики, прогрессивным продвижением в социальных сетях и поисковых системах.</p>
 					</div>
         		</div>
-        	</div>
+        	</div>-->
         </section>
         <!--================End Success Area =================-->
         
@@ -243,8 +262,7 @@
         				<div class="hover_text">
         					<h4>СОЗДАНИЕ САЙТОВ</h4>
         					<div class="cat">
-        						<a href="#">Lifestyle</a>
-        						<a href="#">People</a>
+        						
         					</div>
         					<a class="main_btn" href="#">Читать далее</a>
         				</div>
@@ -256,8 +274,7 @@
         				<div class="hover_text">
         					<h4>SEO-ПРОДВИЖЕНИЕ САЙТОВ</h4>
         					<div class="cat">
-        						<a href="#">Lifestyle</a>
-        						<a href="#">People</a>
+        						
         					</div>
         					<a class="main_btn" href="#">Читать далее</a>
         				</div>
@@ -269,8 +286,7 @@
         				<div class="hover_text">
         					<h4>РАЗРАБОТКА ИНТЕРНЕТ-МАГАЗИНОВ</h4>
         					<div class="cat">
-        						<a href="#">Lifestyle</a>
-        						<a href="#">People</a>
+        						
         					</div>
         					<a class="main_btn" href="#">Читать далее</a>
         				</div>
@@ -282,8 +298,7 @@
         				<div class="hover_text">
         					<h4>КОНТЕКСТНАЯ РЕКЛАМА</h4>
         					<div class="cat">
-        						<a href="#">Lifestyle</a>
-        						<a href="#">People</a>
+        						
         					</div>
         					<a class="main_btn" href="#">Читать далее</a>
         				</div>
@@ -295,8 +310,7 @@
         				<div class="hover_text">
         					<h4>РЕКЛАМА РСЯ И КМС</h4>
         					<div class="cat">
-        						<a href="#">Lifestyle</a>
-        						<a href="#">People</a>
+        						
         					</div>
         					<a class="main_btn" href="#">Читать далее</a>
         				</div>
@@ -308,8 +322,7 @@
         				<div class="hover_text">
         					<h4>ПРОДВИЖЕНИЕ В СОЦСЕТЯХ</h4>
         					<div class="cat">
-        						<a href="#">Lifestyle</a>
-        						<a href="#">People</a>
+        						
         					</div>
         					<a class="main_btn" href="#">Читать далее</a>
         				</div>
@@ -395,7 +408,7 @@
         <!--================End Team Area =================-->
         
         <!--================Project Details Area =================-->
-        <section class="project_know_area p_120">
+      <!--  <section class="project_know_area p_120">
         	<div class="container">
         		<div class="project_know_inner text-center">
         			<h3>О НАС</h3>
@@ -403,7 +416,7 @@
         			<a class="white_btn" href="#">Заказать звонок</a>
         		</div>
         	</div>
-        </section>
+        </section> -->
         <section class="mission_area">
         <div class="row">
                <div class="col-lg-12">
@@ -559,15 +572,19 @@
         <footer class="footer-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3  col-md-6 col-sm-6">
+                    <div class="col-lg-4  col-md-6 col-sm-6">
                         <div class="single-footer-widget">
-                            <h6 class="footer_title">ИП "Беляев И."</h6>
-                            <p>УНП</p><br>
-                            <p>+375299382828</p><br>
-                            <p>mail</p>
+                            <h6 class="footer_title">Seo-digital agency - агентство интернет-маркетинга</h6>
+                            <p>УНП 00000000</p><br>
+                            <p><strong>Наши компетенции:</strong></p><br>
+                            <p>Создание сайтов</p><br>
+                            <p>Контекстная реклама</p><br>
+                            <p>SMM</p><br>
+                            <p>Поддержка сайтов</p><br>
+                            
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
                             <h6 class="footer_title">Наши услуги</h6>
                             <div class="row">
@@ -585,36 +602,15 @@
                             </div>							
                         </div>
                     </div>							
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                   <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
-                            <h6 class="footer_title">Newsletter</h6>
-                            <p>For business professionals caught between high OEM price and mediocre print and graphic output, </p>		
-                            <div id="mc_embed_signup">
-                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
-                                    <div class="input-group d-flex flex-row">
-                                        <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
-                                        <button class="btn sub-btn"><span class="lnr lnr-location"></span></button>		
-                                    </div>									
-                                    <div class="mt-10 info"></div>
-                                </form>
-                            </div>
+                            <h6 class="footer_title">Телефоны:<h6>
+                            <p>+375 (29) 938-28-28 </p>	
+                            <p> </p>	
+                            
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-footer-widget instafeed">
-                            <h6 class="footer_title">InstaFeed</h6>
-                            <ul class="list instafeed d-flex flex-wrap">
-                                <li><img src="img/instagram/Image-01.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-02.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-03.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-04.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-05.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-06.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-07.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-08.jpg" alt=""></li>
-                            </ul>
-                        </div>
-                    </div>						
+                    			
                 </div>
                 
             </div>
@@ -622,13 +618,12 @@
 			<div class="container">
 				<div class="row footer-bottom d-flex justify-content-between align-items-center">
                     <p class="col-lg-8 col-md-8 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+ &copy; ИП "Беляев И.В", 2017-2020
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                     <div class="col-lg-4 col-md-4 footer-social">
                         <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                        <a href="#"><i class="fa fa-behance"></i></a>
+                        
                     </div>
                 </div>
 			</div>
@@ -641,6 +636,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="js/popper.js"></script>
         <script src="js/bootstrap.min.js"></script>
