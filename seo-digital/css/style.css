@@ -66,7 +66,7 @@ a:hover, a:focus {
 }
 
 .row.m0 {
-  margin: 0px;
+  margin: 40px;
 }
 
 body {
@@ -96,7 +96,13 @@ button:focus {
 }
 .title__main{
     font-size: 32px;
+    color: #000;
     
+}
+p.title__text{
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .title__text{
@@ -107,6 +113,7 @@ button:focus {
     margin-top: 20px;
 }
 .p_120 {
+    color: #000;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -218,6 +225,9 @@ button:focus {
   padding: 0px;
   display: inline-block;
 }
+a.nav-link {
+    padding: 0;
+}
 
 .header_area .navbar .nav .nav-item .nav-link:after {
   display: none;
@@ -306,7 +316,7 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-  background: #a7cb00;
+  background: #ff9900;
   color: #fff;
 }
 
@@ -3543,7 +3553,7 @@ h6 {
   z-index: -1;
 }
 
-.slider_text_inner .slider_text h2 {
+.slider_text_inner .slider_text h1 {
   font-size: 48px;
   color: #000000;
   text-transform: uppercase;
@@ -3632,7 +3642,7 @@ h6 {
 }
 
 .success_area {
-    margin-top: 25px;
+    
   overflow: hidden;
 }
 
@@ -3651,12 +3661,16 @@ max-width: 100%;
 
 .success_area .mission_text {
   float: right;
-  margin-right: 130px;
+  margin-right: 150px;
+    font-weight: 400;
 }
 
 .success_area .right_dir .mission_text {
   float: none;
-  margin-left: 130px;
+  margin-left: 80px;
+}
+.mission_text h3{
+   font-weight:400;  
 }
 
 /* End Main Button Area css
@@ -3670,6 +3684,7 @@ max-width: 100%;
 }
 
 .project_item {
+    margin-left: 10px;
   position: relative;
 }
 
@@ -3688,9 +3703,20 @@ max-width: 100%;
 }
 
 .project_item img {
-  width: 100%;
+    width: 100%;
+  
 }
-
+.project_item-port{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+    
+}
+.row m0 .row-port{
+    margin-left: 25px;
+    margin-right: 25px;
+}
 .project_item .hover_text {
   position: absolute;
   left: 0px;
@@ -3703,7 +3729,7 @@ max-width: 100%;
 }
 
 .project_item .hover_text h4 {
-  color: #000000;
+  color: #ff9900;
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
@@ -3755,14 +3781,24 @@ max-width: 100%;
   line-height: 48px;
   opacity: 1;
   margin-top: 22px;
-}
+}р2
 
 /* End Project Area css
 ============================================================================================ */
 /* Estimate Area css
 ============================================================================================ */
 .project_know_area {
-  background: #1155aa;
+  background: #fff;
+color:#000;
+}
+.project__title{
+    background: #fff;
+    color: #000;
+}
+
+.project__title h3{
+
+    color: #000;
 }
 
 .project_know_area h3 {
@@ -3963,7 +3999,7 @@ max-width: 100%;
 /*============== footer-area css ===============*/
 .footer-area {
   background: #f9f9ff;
-  padding-top: 120px;
+  padding-top: 70px;
 }
 
 .single-footer-widget p {
@@ -3979,11 +4015,11 @@ max-width: 100%;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
   margin-bottom: 13px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .single-footer-widget ul li a:hover {
-  color: #a7cb00;
+  color: #ff9900;
 }
 
 .single-footer-widget .instafeed {
