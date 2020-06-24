@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>Контакты</title>
+        <title>Контекстная реклама</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
         <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
         <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/swiper/css/swiper.min.css">
         <!-- main css -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
@@ -21,7 +22,7 @@
     <body>
         
         <!--================Header Menu Area =================-->
-      <header class="header_area">
+        <header class="header_area">
             <div class="main_menu">
             	<nav class="navbar navbar-expand-lg navbar-light">
 					<div class="container box_1620">
@@ -101,10 +102,10 @@
             <div class="banner_inner d-flex align-items-center">
 				<div class="container">
 					<div class="banner_content">
-						<h2>Контакты</h2>
+						<h2>Контекстная реклама</h2>
 						<div class="page_link">
 							<a href="index.html">Главная</a>
-							<a href="contact.html">Контакты</a>
+							<a href="kontekstnaya-reklama.html">Контекстная реклама</a>
 						</div>
 					</div>
 				</div>
@@ -112,54 +113,39 @@
         </section>
         <!--================End Home Banner Area =================-->
         
-        <!--================Contact Area =================-->
-        <section class="contact_area p_120">
-            <div class="container">
-               <div class="map__office">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab7f9fd41c2a24a127826680a7e1ec62ca2270139f425e58d371e27222e7adcca&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
-                </div>
-             <div class="row">
-                    <div class="col-lg-3">
-                        <div class="contact_info">
-                            <div class="info_item">
-                               
-                                <h5>Узнать стоимость:</h5>
-                                <p class="title__text">С помощью данной формы, вы можете узнать стоимость услуг по созданию и продвижению сайта в нашей компании.</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Ваше имя">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Ваш email">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Заинтересованая услуга">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" name="message" id="message" rows="1" placeholder="Сообщение"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-md-12 text-right">
-                            <a class="main_btn" href="#">Заказать звонок</a>
-
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+        <!--================Success Area =================-->
+        <section class="success_area">
+        	<div class="row m0">
+        		<div class="col-lg-6 p0">
+        			<div class="mission_text">
+						<h4>Road to Success</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam quis nostrud.</p>
+					</div>
+        		</div>
+        		<div class="col-lg-6 p0">
+        			<div class="success_img">
+        				<img src="img/success-1.jpg" alt="">
+        			</div>
+        		</div>
+        	</div>
+        	<div class="row m0 right_dir">
+        		<div class="col-lg-6 p0">
+        			<div class="success_img">
+        				<img src="img/success-2.jpg" alt="">
+        			</div>
+        		</div>
+        		<div class="col-lg-6 p0">
+        			<div class="mission_text">
+						<h4>Road to Success</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam quis nostrud.</p>
+					</div>
+        		</div>
+        	</div>
         </section>
-        <!--================Contact Area =================-->
+        <!--================End Success Area =================-->
         
         <!--================ start footer Area  =================-->	
-             <footer class="footer-area">
+          <footer class="footer-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4  col-md-6 col-sm-6">
@@ -218,37 +204,6 @@
         </footer>
 		<!--================ End footer Area  =================-->
         
-        <!--================Contact Success and Error message Area =================-->
-        <div id="success" class="modal modal-message fade" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="fa fa-close"></i>
-                        </button>
-                        <h2>Thank you</h2>
-                        <p>Your message is successfully sent...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modals error -->
-
-        <div id="error" class="modal modal-message fade" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="fa fa-close"></i>
-                        </button>
-                        <h2>Sorry !</h2>
-                        <p> Something went wrong </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--================End Contact Success and Error message Area =================-->
         
         
         
@@ -265,18 +220,11 @@
         <script src="vendors/isotope/isotope-min.js"></script>
         <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
         <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/mail-script.js"></script>
         <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
         <script src="vendors/counter-up/jquery.counterup.js"></script>
+        <script src="js/mail-script.js"></script>
         <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
         <script src="vendors/swiper/js/swiper.min.js"></script>
-        <!-- contact js -->
-        <script src="js/jquery.form.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/contact.js"></script>
-        <!--gmaps Js-->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-        <script src="js/gmaps.min.js"></script>
         <script src="js/theme.js"></script>
     </body>
 </html>
