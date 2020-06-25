@@ -42,6 +42,7 @@ Table of Content:
 /*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Raleway:300,400,500,600,700");
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 
@@ -68,11 +69,16 @@ a:hover, a:focus {
 .row.m0 {
   margin: 40px;
 }
+@media(max-width:450px){
+    .row.m0{
+        margin: 0px;
+    }
+}
 
 body {
   line-height: 26px;
   font-size: 15px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   color: #666666;
 }
@@ -89,7 +95,7 @@ button:focus {
 }
 
 .title{
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 70px;
     text-align: center;
     color: black;
@@ -100,11 +106,11 @@ button:focus {
     
 }
 p.title__text{
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
-    text-transform: uppercase;
+   
 }
-
+@media(max-width:350px){
 .title__text{
     color: black;
     font-size: 20px;
@@ -112,7 +118,15 @@ p.title__text{
     margin: 0 auto;
     margin-top: 20px;
 }
-
+p.title__text{
+    font-size: 14px;
+    font-weight: 400;
+   
+}
+    .title{
+        pas
+    }
+}
 
 .map__office{
     margin-bottom: 50px;
@@ -1691,7 +1705,7 @@ a.nav-link {
 
 .contact_info .info_item {
   position: relative;
-  padding-left: 45px;
+  padding-left: 5px;
 }
 
 .contact_info .info_item i {
@@ -1718,7 +1732,7 @@ a.nav-link {
 }
 
 .contact_info .info_item p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 24px;
   padding: 2px 0px;
 }
@@ -2184,7 +2198,7 @@ h4 {
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h6 {
@@ -3326,6 +3340,12 @@ h6 {
   -o-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
 }
+@media(max-width:450px){
+    .main_btn {
+        padding: 0 17px;
+        font-size: 12px;
+    }
+}
 
 .main_btn:hover {
   color: #ff9900;
@@ -3433,6 +3453,11 @@ h6 {
   transition: all 300ms linear 0s;
 }
 
+@media(max-width:350px){
+    .banner_btn {
+        padding: 0px 10px;
+    }
+}
 .banner_btn:hover {
   color: #ff9900;
   background: transparent;
@@ -3524,7 +3549,7 @@ h6 {
 .slider_text_inner {
   position: absolute;
   left: 50px;
-  top: 50%;
+  top: 40%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -3538,6 +3563,11 @@ h6 {
   -webkit-transition-delay: 1.2s;
   -o-transition-delay: 1.2s;
   transition-delay: 1.2s;
+}
+@media(max-width:350px){
+    .slider_text_inner{
+        top:50%;
+    }
 }
 
 .slider_text_inner .slider_text {
@@ -3554,7 +3584,7 @@ h6 {
   background: rgba(255, 153, 0, 0.8);
   position: absolute;
   left: -95px;
-  top: -70px;
+  top: -40px;
   z-index: -1;
 }
 
@@ -3563,6 +3593,15 @@ h6 {
   color: #000000;
   text-transform: uppercase;
   margin-bottom: 12px;
+}
+
+@media(max-width:450px){
+    .slider_text_inner .slider_text h1 {
+  font-size: 25px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
 }
 
 .slider_text_inner .slider_text p {
@@ -3740,11 +3779,19 @@ max-width: 100%;
 
 
 .project_item .hover_text h4 {
-  color: #ff9900;
+  color: #000;
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+@media (max-width:450px){
+    .project_item .hover_text h4 {
+  
+  font-size: 16px;
+  
+}
 }
 
 .project_item .hover_text .cat a {
@@ -4106,11 +4153,13 @@ color:#000;
 .footer_title {
   font-size: 20px;
   line-height: 24px;
-  font-weight: 500;
+  
   color: #000000;
   margin-bottom: 28px;
   text-transform: uppercase;
 }
+
+
 
 .border_line {
   width: 100%;

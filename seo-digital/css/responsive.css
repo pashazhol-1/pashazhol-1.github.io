@@ -297,6 +297,7 @@
 		max-width: 174px;
 		text-align: center;
 		margin-bottom: 10px;
+        margin: 0 auto;
 	}
 	.portfolio_details_inner .portfolio_right_text {
 		padding-left: 0px;
@@ -374,8 +375,8 @@
 		padding-top: 70px;
 	}
 	.success_area .mission_text {
-		padding-top: 70px;
-		padding-bottom: 70px;
+		padding-top: 10px;
+		padding-bottom: 50px;
 	}
 	.mission_slider {
 		padding-top: 70px;
