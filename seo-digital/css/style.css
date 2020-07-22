@@ -47,61 +47,18 @@ Table of Content:
 /*----------------------------------------------------*/
 
 /*modal*/
+  
 
-.overlay {
-	position: absolute;
-	width: 100%;
-	height: 100vh;
-	top: 0;
-	left: 0;
-	background-color: rgba(0, 0, 0, .8);
-	display: none;
-}
 
-.popup {
-	position: absolute;
-	width: 400px;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	padding: 40px;
-	box-sizing: border-box;
-	background-color: #ff5252;
-	color: #fff;
-}
-
-.close-popup {
-	position: absolute;
-	top: 15px;
-	right: 15px;
-	width: 23px;
-	height: 23px;
-	cursor: pointer;
-}
-
-.close-popup:before {
-	content: '';
-	background-color: #fff;
-	position: absolute;
-	height: 1px;
-	width: 31px;
-	top: 11px;
-	left: -4px;
-	transform: rotate(-45deg);
-}
-
-.close-popup:after {
-	content: '';
-	background-color: #fff;
-	position: absolute;
-	height: 1px;
-	width: 31px;
-	top: 11px;
-	transform: rotate(45deg);
-	left: -4px;
-}
 
 /*end modal*/
+
+
+/*modal form*/
+
+
+
+/*end modal form*/
 .list {
   list-style: none;
   margin: 0px;
@@ -3815,11 +3772,16 @@ max-width: 100%;
 }
 .project_port{
     transition: 1s;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-bottom: 50px;
 }
-    
+@media(max-width:650px){
+    .project_port{
+        margin-left: 0;
+        margin-right: 0;
+    } 
+}
 }
 .row m0 .row-port{
     margin-left: 25px;
