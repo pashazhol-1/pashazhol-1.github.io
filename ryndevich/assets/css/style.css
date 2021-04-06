@@ -322,8 +322,8 @@ color: #fff;
 	font-size: 20px;
 	font-weight: 900;
 	color: #fff;
-	background:#1794bb;
-	border: 1px solid #1794bb;
+	background:#c06e23;
+	border: 1px solid #c06e23;
 	display: inline-block;
 	padding: 2px 15px;
 }
@@ -337,7 +337,7 @@ color: #fff;
 .mainmenu-icons {
 	display: inline-block;
 	cursor: pointer;
-background: #1794bb;
+background: #c06e23;
 	height: 50px;
 	width: 50px;
 	padding: 15px;
@@ -390,7 +390,7 @@ background: #1794bb;
 }
 
 .off-canvas-menu {
-background:#1794bb;
+background:#c06e23;
    position: fixed;
     right: -40%;
     top: 0;
@@ -953,8 +953,8 @@ background:#1794bb!important;
 */
 
 .footer {
-background:#1794bb ;
-  border-top: 1px solid #1794bb ;
+background:#c06e23 ;
+  border-top: 1px solid #c06e23 ;
 }
 .contact_details{}
 .contact_details h3 {
