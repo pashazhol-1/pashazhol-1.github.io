@@ -148,7 +148,7 @@ b, strong {
 .section-title h1{font-size: 26px;padding: 0px 15px;}
 }
 .section-title span {
-background: #1794bb none repeat scroll 0 0;
+background: #9C5F26 none repeat scroll 0 0;
 display: block;
 height: 5px;
 margin: 20px auto;
@@ -168,7 +168,7 @@ width: 70px;
 /*END SECTION TITLE DESIGN*/
 /*START SCROLL TO TOP*/
 .topcontrol {
-background:#1794bb;
+background:#000;
 border-radius: 5px;
 bottom: 5px;
 box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
@@ -695,10 +695,10 @@ background:#1794bb;
 	transition: 0.3s;
 }
 .single_service:hover{
-background:#1794bb;
+background:#9C5F26;
 }
 .single_service span {
-	color: #1794bb;
+	color: #c06e23;
 	font-size: 30px;
 	margin-bottom: 30px;
 	display: block;
@@ -911,18 +911,18 @@ padding-top: 120px;
 }
 .contact input:focus {
 	background: none;
-    border-bottom: 2px solid #1794bb;
+    border-bottom: 2px solid grey;
     box-shadow: none;
     outline: 0 none;
 }
 .contact textarea:focus {
 	 background: none;
-    border-bottom: 2px solid #1794bb;
+    border-bottom: 2px solid grey;
     box-shadow: none;
     outline: 0 none;
 }
 .btn-contact-bg {
-background:#1794bb!important;
+background:#9C5F26!important;
 	border-radius: 3px!important;
 	border-style: none!important;
 	color: #fff!important;
@@ -938,7 +938,7 @@ background:#1794bb!important;
 }
 .btn-contact-bg:hover,
 .btn-contact-bg:focus {
-background:#1794bb!important;
+background:#9C5F26!important;
 }
 /*
 * ----------------------------------------------------------------------------------------
@@ -953,7 +953,7 @@ background:#1794bb!important;
 */
 
 .footer {
-background:#c06e23 ;
+background:#9C5F26;
   border-top: 1px solid #c06e23 ;
 }
 .contact_details{}
@@ -982,7 +982,7 @@ margin-bottom: 0px;
 .footer_social ul li a {
 	color: #fff;
 	display: block;
-	font-size: 16px;
+	font-size: 24px;
 	margin-right: 16px;
 	transition: all 0.2s ease 0s;
 }
