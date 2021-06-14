@@ -7883,10 +7883,16 @@ h1, h2, h3, h4, h5,
       color: #000000; }
   .services .media-body h3 {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 64px;
     text-transform: uppercase;
     line-height: 1.2;
-    margin-bottom: 20px; }
+    margin-bottom: 20px; 
+  font-family: Inter, sans-serif;
+font-weight: 700;}
+
+.services .media-body h3:first-letter{
+  color: #ccb78f;
+}
 
 #section-counter {
   position: relative;
@@ -8274,7 +8280,8 @@ textarea.form-control {
       border: 1px solid transparent; }
 
 .contact-section .contact-info p a {
-  color: #1a1a1a; }
+  color: #1a1a1a;
+font-size: 48px; }
 
 .contact-section .info {
   width: 100%; }
