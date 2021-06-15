@@ -308,6 +308,7 @@
 						</div>					
 					</div>
 				</div>
+
 			</section>
 
 			
@@ -374,10 +375,31 @@
 	    </footer>
 		</div><!-- END COLORLIB-MAIN -->
 	</div><!-- END COLORLIB-PAGE -->
-
+	<div class="overlay">
+		<div class="modal" id="callback">
+			<div class="modal__close">&times;</div>
+			<div class="modal__subtitle">Просто заполните форму</div>
+			<div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+			<form class="feed-form feed-form_mt25" action="#">
+				<input name="name" placeholder="Ваше имя" type="text"> 
+				<input name="phone" placeholder="Ваш телефон"> 
+				<input name="email" placeholder="Ваш E-mail" type="email"> 
+				<textarea name="message" placeholder="Cообщение"></textarea>
+				<button class="button button_submit">Перезвонить мне</button>
+			</form>
+		</div>
+		
+		<div class="modal_mini" id="thanks">
+			<div class="modal__close">&times;</div>
+			<div class="modal__subtitle">Спасибо за вашу заявку!</div>
+			<div class="modal__descr">Наш менеджер свяжется с вами 
+				в ближайшее время!</div>
+		</div>
+	</div>
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
+  
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>

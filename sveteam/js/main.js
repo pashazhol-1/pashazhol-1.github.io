@@ -241,3 +241,10 @@
 
 })(jQuery);
 
+
+
+const modalOpen = document.querySelector(".btn-custom-2");
+const modal = document.querySelector('.overlay');
+const modalClose = document.querySelector('.modal__close');
+modalOpen.addEventListener('click', () => {modal.style.display ='block'});
+modalClose.addEventListener('click', () => {modal.style.display='none'});
