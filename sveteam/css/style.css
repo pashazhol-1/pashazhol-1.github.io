@@ -8250,6 +8250,27 @@ textarea.form-control {
 .mfp-with-zoom.mfp-ready.mfp-bg {
   opacity: 0.8; }
 
+
+
+
+  .fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top:46%;
+}
+ 
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 100%;
+}
+
+
 .mfp-with-zoom.mfp-removing .mfp-container,
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0; }
