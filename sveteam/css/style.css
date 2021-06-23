@@ -8263,6 +8263,10 @@ textarea.form-control {
     padding-top:46%;
 }
  
+.single_image img{
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
 
 .fullscreen-bg__video {
     position: absolute;
@@ -8611,9 +8615,6 @@ font-size: 48px; }
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
-
-
-
 
 
   .feed-form {
