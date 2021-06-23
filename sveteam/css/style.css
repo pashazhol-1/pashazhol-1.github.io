@@ -7967,15 +7967,16 @@ font-weight: 700;}
         -ms-transition: all 0.3s ease;
         transition: all 0.3s ease; }
         .project .img .text h2 a {
-          color: #000000; }
+          color: #000000;
+        font-size: 110px; }
       .project .img .text:hover h2 a, .project .img .text:focus h2 a {
         color: #ccb78f; }
 
 .btn-custom-2 {
-  font-size: 7vw;
+  font-size: 5vw;
   font-weight: 600;
   color: #000000;
-  text-transform: uppercase; }
+ }
 
 .blog-entry {
   margin-bottom: 5em; }
