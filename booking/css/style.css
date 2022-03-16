@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.logo{
+    width: 200px;
+    margin: 0 auto;
+}
+.logo img{
+    width:200px;
+    height: auto;
+    
+}
+.title h1{
+    color: #363636;
+    margin-top: 30px;
+    text-align: center;
+}
+.subtitle{
+    margin-top: 16px;
+    color: #363636;
+    text-align: center;
+}
+.form .modality{
+    width: 324px;
+    height: 48px;
+}
+
+label{
+    display: block;
+}
+.form{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.btn_search{
+    border: none;
+    border-radius: 4px;
+    color:#ffffff;
+    background-color: #21A567;
+    width: 324px;
+    height: 48px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.calendar img{
+    margin-top: 30px;
+    width: 1420px;
+    height: auto;
+}
+
+.row input{
+    width: 324px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #363636;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.row_wrapper{
+    margin-top: 30px;
+}
