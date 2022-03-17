@@ -9,6 +9,11 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
+.container2{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 .logo{
     width: 200px;
     margin: 0 auto;
@@ -52,8 +57,9 @@ label{
     height: 48px;
     margin-top: 18px;
     cursor: pointer;
+    font-size: 14px;
 }
-.calendar img{
+.img_calendar{
     margin-top: 30px;
     width: 1420px;
     height: auto;
@@ -64,13 +70,231 @@ label{
     height: 48px;
     border-radius: 4px;
     border: 1px solid #363636;
+    text-indent: 12px;
 }
 .row{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 10px;
+    flex-flow: wrap;
+    max-width: 1200px;
+    gap: 12px;
+    margin-top: 20px;
 }
 .row_wrapper{
     margin-top: 30px;
+}
+.row .time input{
+    width: 20px;
+}
+.time{
+    display: flex;
+    margin: 0;
+    line-height: 48px;
+}
+.time_label{
+    margin-left: 12px;
+}
+.textarea{
+    width: 342px;
+    height: 100px;
+}
+
+.row2{
+    margin-top: 30px;
+}
+
+.row_element { 
+    width: 336px;
+}
+
+.time_wrapper{
+    display: flex;
+    gap: 10px;
+}
+.req{
+    margin-top: 68px;
+    margin-bottom: 12px;
+    color: #363636;
+    font-size: 18px;
+}
+.req_sub{
+    color: #747474;
+}
+
+.add_file{
+    margin-top: 12px;
+}
+.add{
+    display: flex;
+    
+}
+
+.add_lable {
+    margin-left: 12px;
+}
+.add input{
+    width: 20px;
+    height: 20px;
+}
+.select{
+    color: #726E6E;
+}
+.velox{
+    display: block;
+    margin: 36px auto;
+}
+.hr{
+    margin-top: 36px;
+}
+.header{
+    display: flex;
+    gap: 12px;
+}
+
+@media screen and (max-width:1250px) {
+    .row{
+        margin-top: 20px;
+    }
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    max-width: 1420px;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:1250px) {
+    .form{
+        margin-top: 20px;
+    }
+  
+}
+
+.img6,.img5,.img4,.img3,.img2 {
+    display: none;
+}
+
+
+@media screen and (max-width:1310px) {
+    
+    .img_calendar{
+        display: none;
+    }
+    .img6{
+        display: block;
+      width: 1110px;
+    }
+}
+
+@media screen and (max-width:1210px) {
+    
+    .img_calendar{
+        display: none;
+    }
+
+    .img6{
+        display: none;
+      
+    }
+    .img5{
+        display: block;
+        width: 1000px;
+    }
+}
+@media screen and (max-width:996px) {
+    
+    .img_calendar{
+        display: none;
+    }
+
+    .img6{
+        display: none;
+      
+    }
+    .img5{
+        display: none;
+    }
+    .img4{
+        display: block;
+        width: 900px;
+    }
+}
+@media screen and (max-width:748px) {
+    
+    .img_calendar{
+        display: none;
+    }
+
+    .img6{
+        display: none;
+      
+    }
+    .img5{
+        display: none;
+    }
+    .img4{
+        display: none;
+    }
+    .img3{
+        display: block;
+        width: 700px;
+    }
+}
+
+@media screen and (max-width:656px) {
+    .procedure{
+        margin-top: 16px;
+    }
+    .img_calendar{
+        display: none;
+    }
+
+    .img6{
+        display: none;
+      
+    }
+    .img5{
+        display: none;
+    }
+    .img4{
+        display: none;
+    }
+    .img3{
+        display: none;
+    }
+    .img2{
+        display: block;
+        width: 350px;
+    }
+}
+
+.thanks_block{
+    text-align: center;
+}
+.thanks{
+    font-size: 48px;
+    color:#21A567;
+    margin-top: 48px;
+    margin-bottom: 12px;
+}
+.sub{
+    margin-top: 12px;
+    color: #363636;
+    font-size: 18px;
+}
+.another{
+    margin-top: 112px;
+    color: #363636;
+}
+.thanks_hr{
+    margin-top: 48px;
+}
+.make {
+    font-weight: 800;
+    color: #21A567;
 }
