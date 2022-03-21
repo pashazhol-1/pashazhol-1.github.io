@@ -282,7 +282,7 @@ label{
 
 @media screen and (max-width:656px) {
     .procedure{
-        margin-top: 16px;
+       
     }
     .img_calendar{
         display: none;
@@ -316,22 +316,22 @@ label{
 
 @media screen and (max-width:414px) {
     .form .modality{
-        width: 280px;
+        width: 324px;
         height: 48px;
     }
     .btn_search{
-        width: 280px;
+        width: 324px;
         height: 48px;
     }
     .subtitle{
         font-size: 14px;
     }
     .row input{
-        width: 280px;
+        width: 324px;
         height: 48px;
     }
     .textarea{
-        width: 280px;
+        width: 324px;
         
     }
     .title{
@@ -341,22 +341,22 @@ label{
 
 @media screen and (max-width:326px) {
     .form .modality{
-        width: 240px;
+        width: 292px;
         height: 48px;
     }
     .btn_search{
-        width: 240px;
+        width: 292px;
         height: 48px;
     }
     .subtitle{
         font-size: 14px;
     }
     .row input{
-        width: 240px;
+        width: 292px;
         height: 48px;
     }
     .textarea{
-        width: 240px;
+        width: 292px;
         
     }
     .title{
@@ -400,6 +400,7 @@ label{
     display: flex;
     max-height: 1000px;
     overflow-x: auto;
+    max-width: 1240px;
 }
 .calendar_time{
     display: flex;
@@ -423,9 +424,10 @@ label{
     margin-bottom: 10px;
 }
 .calendar_wrapper{
+    
     display: flex;
     flex-direction: column;
-    max-width: 1240px; 
+     
 }
 .calendar_date{
     display: flex;
@@ -454,6 +456,34 @@ label{
     color:#363636;
 }
 
-@media screen and (max-width:1920){
-    overflow-x: hidden;
+@media screen and (max-width:566px) {
+    .column{
+        width: 120px;
+        height: 920px;
+        background-color: #EDEDED;
+        border-radius: 4px;
+    }
+    .date{
+        width: 120px;
+        text-align: center;
+        color: #363636;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .column{
+        width: 100px;
+        height: 920px;
+        background-color: #EDEDED;
+        border-radius: 4px;
+    }
+    .date{
+        width: 100px;
+        text-align: center;
+        color: #363636;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
 }
