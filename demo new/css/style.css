@@ -314,13 +314,33 @@ label{
 }
 
 
+
+@media screen and (max-width:450px) {
+    .form .modality{
+        width: 410px;
+        height: 48px;
+    }
+    .btn_search{
+        width: 410px;
+        height: 48px;
+    }
+    .subtitle{
+        font-size: 14px;
+    }
+    
+    .title{
+        font-size: 14px;
+    }
+}
+
+
 @media screen and (max-width:414px) {
     .form .modality{
-        width: 324px;
+        width: 354px;
         height: 48px;
     }
     .btn_search{
-        width: 324px;
+        width: 354px;
         height: 48px;
     }
     .subtitle{
@@ -339,13 +359,13 @@ label{
     }
 }
 
-@media screen and (max-width:326px) {
+@media screen and (max-width:358px) {
     .form .modality{
-        width: 292px;
+        width: 324px;
         height: 48px;
     }
     .btn_search{
-        width: 292px;
+        width: 324px;
         height: 48px;
     }
     .subtitle{
@@ -363,8 +383,54 @@ label{
         font-size: 14px;
     }
 }
-
-
+@media screen and (max-width:331px) {
+    .form .modality{
+        width: 286px;
+        height: 48px;
+    }
+    .btn_search{
+        width: 286px;
+        height: 48px;
+    }
+    .subtitle{
+        font-size: 14px;
+    }
+    .row input{
+        width: 292px;
+        height: 48px;
+    }
+    .textarea{
+        width: 292px;
+        
+    }
+    .title{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:298px) {
+    .form .modality{
+        width: 240px;
+        height: 48px;
+    }
+    .btn_search{
+        width: 240px;
+        height: 48px;
+    }
+    .subtitle{
+        font-size: 14px;
+    }
+    .row input{
+        width: 292px;
+        height: 48px;
+    }
+    .textarea{
+        width: 292px;
+        
+    }
+    .title{
+        font-size: 14px;
+    }
+}
 
 .thanks_block{
     text-align: center;
@@ -486,4 +552,9 @@ label{
         font-size: 16px;
         margin-bottom: 10px;
     }
+}
+
+.hr_index{
+    margin-top:48px;
+    color:#CACACA;
 }
