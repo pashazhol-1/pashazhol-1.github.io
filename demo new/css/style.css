@@ -142,7 +142,8 @@ label{
     margin-left: 12px;
 }
 .textarea{
-    width: 324px;
+    padding: 12px;
+    width: 300px;
     height: 100px;
 }
 
@@ -151,6 +152,7 @@ label{
 }
 
 .row_element { 
+    margin-top: 24px;
     width: 336px;
 }
 
@@ -260,6 +262,12 @@ label{
     }
     .form{
         gap: 12px;
+    }
+}
+
+@media screen and (max-width:1115px){
+    .row_element1{
+        display: none;
     }
 }
 @media screen and (max-width:996px) {
@@ -434,13 +442,19 @@ label{
         height: 48px;
     }
     .textarea{
-        width: 306px;
+        width: 282px;
         
     }
     .title{
         font-size: 14px;
     }
-
+    .row_element { 
+        margin-top: 12px;
+        width: 336px;
+    }
+    .req{
+        margin-top: 24px;
+    }
     
 }
 
@@ -458,7 +472,7 @@ label{
         font-size: 14px;
     }
     .btn_search1{
-        width: 278px;
+        width: 254px;
     }
 }
 
@@ -470,7 +484,7 @@ label{
     }
    
     .textarea{
-        width: 278px;
+        width: 254px;
         
     }
    
@@ -493,7 +507,7 @@ label{
         height: 48px;
     }
     .textarea{
-        width: 250px;
+        width: 226px;
         
     }
     .btn_search1{
@@ -520,7 +534,7 @@ label{
         height: 48px;
     }
     .textarea{
-        width: 250px;
+        width: 226px;
         
     }
     .btn_search1{
@@ -529,7 +543,7 @@ label{
         
     
     .title{
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 @media screen and (max-width:320px) {
@@ -539,7 +553,7 @@ label{
         height: 48px;
     }
     .textarea{
-        width: 230px;
+        width: 206px;
         
     }
     .btn_search1{
@@ -569,14 +583,14 @@ label{
     }
    
     .title{
-        font-size: 14px;
+        font-size: 12px;
     }
     .row input{
         width: 180px;
         height: 48px;
     }
     .textarea{
-        width: 180px;
+        width: 156px;
         
     }
     .btn_search1{
@@ -596,7 +610,7 @@ label{
         height: 48px;
     }
     .subtitle{
-        font-size: 14px;
+        font-size: 12px;
     }
     
    
@@ -616,7 +630,7 @@ label{
         height: 48px;
     }
     .subtitle{
-        font-size: 14px;
+        font-size: 12px;
     }
     
    
