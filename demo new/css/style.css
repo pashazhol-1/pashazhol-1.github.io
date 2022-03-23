@@ -6,13 +6,19 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .container{
-    max-width: 1420px;
+    max-width: 1267px;
     margin: 0 auto;
 }
 .container2{
-    max-width: 1200px;
+    max-width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
+}
+.border{
+    border:1px solid #e3e3e3;
+    border-radius: 8px;
+    padding:12px 18px 24px 24px;
+    
 }
 .logo{
     padding-top: 36px;
@@ -39,7 +45,7 @@ border-radius: 4px;}
     text-align: center;
 }
 .form .modality{
-    width: 324px;
+    width: 288px;
     height: 48px;
     text-indent: 8px;
 }
@@ -61,24 +67,44 @@ label{
     border-radius: 4px;
     color:#ffffff;
     background-color: #21A567;
-    width: 324px;
+    width: 278px;
+    height: 48px;
+    margin-top: 18px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn_search1{
+    border: none;
+    border-radius: 4px;
+    color:#ffffff;
+    background-color: #21A567;
+    width: 278px;
     height: 48px;
     margin-top: 18px;
     cursor: pointer;
     font-size: 14px;
 }
 .btn_calendar{
+    display: flex;
+    justify-content: center;
     font-size: 12px;
     cursor: pointer;
     margin: 0 auto;
     margin-top: 28px;
     text-align: center;
     line-height: 34px;
-    display: block;
+    color: #ffffff;
     width: 110px;
     height: 34px ;
-    background-color: #C4C4C4;
+    background-color: #21a567;
     border-radius: 4px;
+}
+.calendar_img{
+    margin-right: 8px;
+    width: 20px;
+    height: auto;
+    line-height: 34px;
 }
 .img_calendar{
     margin-top: 30px;
@@ -170,6 +196,7 @@ label{
 .header{
     display: flex;
     gap: 12px;
+    margin-bottom: 12px;
 }
 .textarea{
     border: 2px solid #9D9A9A;
@@ -185,6 +212,7 @@ label{
 
 .form{
     display: flex;
+ 
     flex-direction: row;
     flex-flow: wrap;
     max-width: 1420px;
@@ -280,9 +308,17 @@ label{
     }
 }
 
-@media screen and (max-width:656px) {
-    .procedure{
-       
+@media screen and (max-width:567px) {
+    .form .modality{
+        width: 506px;
+        height: 48px;
+    }
+    .btn_search{
+        width: 506px;
+        height: 48px;
+    }
+    .btn_search1{
+        width: 350px;
     }
     .img_calendar{
         display: none;
@@ -314,6 +350,44 @@ label{
 }
 
 
+@media screen and (max-width:515px) {
+    .form .modality{
+        width: 440px;
+        height: 48px;
+    }
+    .btn_search{
+        width: 440px;
+        height: 48px;
+    }
+    .img_calendar{
+        display: none;
+    }
+
+    .img6{
+        display: none;
+      
+    }
+    .img5{
+        display: none;
+    }
+    .img4{
+        display: none;
+    }
+    .img3{
+        display: none;
+    }
+    .img2{
+        display: block;
+        width: 350px;
+    }
+    .form{
+        gap: 12px;
+    }
+    .date_text{
+        font-size: 20px;
+    }
+}
+
 
 @media screen and (max-width:450px) {
     .form .modality{
@@ -333,7 +407,16 @@ label{
     }
 }
 
-
+@media screen and (max-width:425px) {
+    .row input{
+        width: 324px;
+        height: 48px;
+    }
+    .btn_search1{
+        width: 300px;
+    }
+    
+}
 @media screen and (max-width:414px) {
     .form .modality{
         width: 354px;
@@ -347,16 +430,50 @@ label{
         font-size: 14px;
     }
     .row input{
-        width: 324px;
+        width: 306px;
         height: 48px;
     }
     .textarea{
-        width: 324px;
+        width: 306px;
         
     }
     .title{
         font-size: 14px;
     }
+
+    
+}
+
+
+@media screen and (max-width:396px) {
+    .subtitle{
+        font-size: 14px;
+    }
+    .row input{
+        width: 306px;
+        height: 48px;
+    }
+   
+    .title{
+        font-size: 14px;
+    }
+    .btn_search1{
+        width: 278px;
+    }
+}
+
+
+@media screen and (max-width:396px) {
+    .row input{
+        width: 278px;
+        height: 48px;
+    }
+   
+    .textarea{
+        width: 278px;
+        
+    }
+   
 }
 
 @media screen and (max-width:358px) {
@@ -372,12 +489,15 @@ label{
         font-size: 14px;
     }
     .row input{
-        width: 292px;
+        width: 250px;
         height: 48px;
     }
     .textarea{
-        width: 292px;
+        width: 250px;
         
+    }
+    .btn_search1{
+        width: 250px;
     }
     .title{
         font-size: 14px;
@@ -396,40 +516,114 @@ label{
         font-size: 14px;
     }
     .row input{
-        width: 292px;
+        width: 250px;
         height: 48px;
     }
     .textarea{
-        width: 292px;
+        width: 250px;
         
     }
+    .btn_search1{
+        width: 250px;
+    }
+        
+    
     .title{
         font-size: 14px;
     }
 }
+@media screen and (max-width:320px) {
+    
+    .row input{
+        width: 230px;
+        height: 48px;
+    }
+    .textarea{
+        width: 230px;
+        
+    }
+    .btn_search1{
+        width: 230px;
+    }
+        
+    
+   
+}
+
+
 @media screen and (max-width:298px) {
     .form .modality{
-        width: 240px;
+        width: 265px;
         height: 48px;
     }
     .btn_search{
-        width: 240px;
+        width: 265px;
         height: 48px;
     }
     .subtitle{
         font-size: 14px;
     }
-    .row input{
-        width: 292px;
-        height: 48px;
+    .time_wrapper{
+        display: flex;
+        flex-direction: column;
     }
-    .textarea{
-        width: 292px;
-        
-    }
+   
     .title{
         font-size: 14px;
     }
+    .row input{
+        width: 180px;
+        height: 48px;
+    }
+    .textarea{
+        width: 180px;
+        
+    }
+    .btn_search1{
+        width: 180px;
+    }
+}
+
+
+
+@media screen and (max-width:270px) {
+    .form .modality{
+        width: 227px;
+        height: 48px;
+    }
+    .btn_search{
+        width: 227px;
+        height: 48px;
+    }
+    .subtitle{
+        font-size: 14px;
+    }
+    
+   
+    .title{
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width:236px) {
+    .form .modality{
+        width: 195px;
+        height: 48px;
+    }
+    .btn_search{
+        width: 195px;
+        height: 48px;
+    }
+    .subtitle{
+        font-size: 14px;
+    }
+    
+   
+    .title{
+        font-size: 14px;
+    }
+  
 }
 
 .thanks_block{
@@ -467,6 +661,10 @@ label{
     max-height: 1000px;
     overflow-x: auto;
     max-width: 1240px;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    padding: 12px;
+  
 }
 .calendar_time{
     display: flex;
@@ -481,6 +679,9 @@ label{
     text-align: right;
     color: #747474;
     font-size: 13px;
+}
+.time_afternoon{
+    margin-left: 12px;
 }
 .date {
     width: 160px;
